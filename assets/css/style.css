@@ -1,0 +1,128 @@
+/**recommended-homework-assignment**/
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  body {
+    font-family:sans-serif;
+    font-size: 18px;
+    /**line-height: 32px;**/
+    color: #777;
+    background:white;
+    width: 960px;
+    margin: 0 auto;
+    
+    
+  }
+  h1{
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom:0px;
+    color:white;
+    background: #4aaaa5;
+    box-align: center;
+    font-family: Georgia;
+    width: 400px;
+  }
+  #h1{
+    padding: 0px;
+    margin-left: 90%;
+    font-size: small;
+    margin-bottom:0px;
+    color:rgb(97, 95, 95);
+    box-align: center;
+    font-family: Georgia;
+    width: 400px;
+  }
+  section {
+    width: 960px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background:rgb(240, 240, 232);
+    color:gray;
+    position: relative;
+  }
+  .box1 {
+    width: 700px;
+    /*height: 30%;*/
+    padding: 20px;
+    margin-bottom: 10px;
+    background:white;
+    color:gray;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  
+  }
+  #flexbox{
+    display: flex;
+    flex-direction: row;
+    background: white
+  }
+  #about {
+    padding: 20px;
+    float:right;
+    clear: both;
+    background: white;
+    color:#777;
+    margin:auto;
+  }
+  #img1 {
+ overflow: left;
+ background: white;
+  }
+  #contactlabel{
+    padding: 20px;
+    margin:0 auto;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+    background: white;
+    color:#777;
+    text-align: left;
+  }
+  #contactbox{
+    padding: 20px;
+    margin: 0 auto;
+    /*margin-top: 20px;
+    /*margin-bottom: 20px;*/
+    background: white;
+    color:#777;
+    border: solid;
+    text-align: left;
+  }
+  #Messagebox{
+    height: 10pc;
+    padding: 20px;
+    margin: 0 auto;
+    /*margin-top: 20px;
+    /*margin-bottom: 20px;*/
+    background: white;
+    color:#777;
+    border: solid;
+    text-align: left;
+  }
+  #portfoliorigth{
+    float: right;
+    position: relative;
+  }
+  #portfolioleft{
+    float: left;
+    position: relative;
+  }
+  footer {
+    width: 960px;
+    padding: 20px;
+    clear: both;
+    background: darkgray;
+    color:#777;
+    margin: 0 auto;
+    /*position: fixed;
+    overflow-anchor: bottom;*/
+  }
