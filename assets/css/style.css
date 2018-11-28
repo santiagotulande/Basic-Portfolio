@@ -51,7 +51,7 @@
     background: #ffffff;
     box-align: center;
     font-family: Georgia;
-    width: 400px;
+    width: 100%;
     text-align: left;
     border-bottom: 2px solid gray;
     
@@ -65,6 +65,7 @@
     background:rgb(240, 240, 232);
     color:#777777;
     position: relative;
+    text-align: justify
   }
   .box1 {
     width: 700px;
@@ -83,7 +84,7 @@
     display: flex;
     flex-direction: row;
     background: white;
-    text-align: left;
+    text-align: justify;
   }
   #about {
     padding: 20px;
@@ -95,19 +96,24 @@
     text-align: left;
   }
   #img1 {
-  display: inline-flex;
+  display: flex;
+  height: auto;
+  width: 10%;
 /*flex-direction: row;*/
  background: white;
- /*overflow: left;
- /*position: relative;*/
+ /*overflow: left;*/
+ /*position: justify;*/
  margin: 10px;
+
   }
   #img2 {
-    display: inline-flex;
+    display: flex;
+    height: auto;
+  width: 10%;
   /*flex-direction: row;*/
    background: white;
-  /* overflow: right ;
-  /* position: relative;*/
+  /* overflow: right ;*/
+  /*position: block;*/
    margin: 10px;
     }
   #contactlabel{
